@@ -40,7 +40,7 @@
                     <i class="bi bi-list-check text-success fs-2 mb-2"></i>
                     <h5 class="card-title">Jadwal Dokter</h5>
                     <p class="card-text">Informasi lengkap mengenai jadwal praktik dokter spesialis.</p>
-                    <a href="{{ url('jadwal-dokter') }}" class="btn btn-success btn-sm">Lihat Jadwal</a>
+                    <a href="{{ route('jadwal_dokter.index') }}" class="btn btn-success btn-sm">Lihat Jadwal</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                     <i class="bi bi-hospital-fill text-info fs-2 mb-2"></i>
                     <h5 class="card-title">Informasi Kamar</h5>
                     <p class="card-text">Ketersediaan dan status kamar rawat inap.</p>
-                    <a href="{{ url('informasi-kamar') }}" class="btn btn-info btn-sm">Lihat Ketersediaan</a>
+                    <a href="{{ route('kamar.index') }}" class="btn btn-info btn-sm">Lihat Ketersediaan</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                     <i class="bi bi-prescription2 text-warning fs-2 mb-2"></i>
                     <h5 class="card-title">Farmasi</h5>
                     <p class="card-text">Informasi obat-obatan dan layanan farmasi.</p>
-                    <a href="{{ url('farmasi') }}" class="btn btn-warning btn-sm">Akses Farmasi</a>
+                    <a href="{{ route('farmasi.index') }}" class="btn btn-warning btn-sm">Akses Farmasi</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                     <i class="bi bi-file-earmark-medical-fill text-danger fs-2 mb-2"></i>
                     <h5 class="card-title">Rekam Medis</h5>
                     <p class="card-text">Akses rekam medis pasien (membutuhkan otentikasi).</p>
-                    <a href="{{ url('rekam-medis') }}" class="btn btn-danger btn-sm">Akses Rekam Medis</a>
+                    <a href="{{ url('rekammedis') }}" class="btn btn-danger btn-sm">Akses Rekam Medis</a>
                 </div>
             </div>
         </div>
